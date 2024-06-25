@@ -1,0 +1,4 @@
+requests
+confluent_kafka
+sqlite3
+json
