@@ -40,7 +40,7 @@ services:
       DYNAMIC_CONFIG_ENABLED: true
     networks:
       - kafka-net
-
+      
 networks:
   kafka-net:
     driver: bridge
