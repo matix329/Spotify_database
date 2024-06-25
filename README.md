@@ -3,7 +3,7 @@
 Skrypt `import_album.py` został zaprojektowany do odbierania danych albumów muzycznych z Kafki i zapisywania ich do bazy danych SQLite. Poniżej znajduje się szczegółowa dokumentacja tabel i danych, które są obsługiwane przez ten skrypt.
 
 #### Tabele w SQLite
-
+------
 ##### Tabela `Artist`
 
 **Opis**: Przechowuje informacje o artystach muzycznych.
@@ -12,7 +12,7 @@ Skrypt `import_album.py` został zaprojektowany do odbierania danych albumów mu
 - `id` (INTEGER PRIMARY KEY AUTOINCREMENT): Unikalny identyfikator artysty.
 - `name` (TEXT NOT NULL): Nazwa artysty.
 - `genre` (TEXT NOT NULL): Gatunek muzyczny artysty (obecnie pole nie jest wypełniane, ale może być rozszerzone w przyszłości).
-
+------
 ##### Tabela `album`
 
 **Opis**: Przechowuje informacje o albumach muzycznych.
@@ -22,7 +22,7 @@ Skrypt `import_album.py` został zaprojektowany do odbierania danych albumów mu
 - `album_name` (TEXT NOT NULL): Nazwa albumu.
 - `pub_date` (TEXT NOT NULL): Data wydania albumu.
 - `artist_id` (INTEGER NOT NULL, FOREIGN KEY): Identyfikator artysty, który stworzył album. Odwołuje się do kolumny `id` w tabeli `Artist`.
-
+------
 ##### Tabela `track`
 
 **Opis**: Przechowuje informacje o utworach muzycznych.
