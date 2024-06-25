@@ -1,7 +1,4 @@
 # Spotify database
-Database of Spotify musics for training in SQL database
-
-Jasne, poniżej znajdziesz dokumentację wymagań SQLite spełnianych przez skrypt `import_album.py`.
 
 Skrypt `import_album.py` został zaprojektowany do odbierania danych albumów muzycznych z Kafki i zapisywania ich do bazy danych SQLite. Poniżej znajduje się szczegółowa dokumentacja tabel i danych, które są obsługiwane przez ten skrypt.
 
